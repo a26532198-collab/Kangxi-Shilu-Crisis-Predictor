@@ -1,0 +1,5 @@
+# 100MB 넘는 큰 데이터 파일 제외
+data/processed/kangxi_master_1661_1722.csv
+
+# 주피터 노트북 임시 파일 (지저분해 보임)
+.ipynb_checkpoints/
