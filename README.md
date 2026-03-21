@@ -1,10 +1,10 @@
-**<<The vertiable records of Kangxi word analysing for crisis predictor with machine-learning>>**
+# **<<The vertiable records of Kangxi word analysing for crisis predictor with machine-learning>>**
 
-#**[Abstract]**
+# **[Abstract]**
 
 **This research utilizes the Qing Shilu (Veritable Records of the Qing) database of the Kangxi era (1661–1722) from the National Institute of Korean History to investigate whether word frequency patterns extracted from the 62-year reign of the Kangxi Emperor correlate significantly with periods of national crisis. Logistic Regression and Lasso classification models were applied to preprocessed text data, and Leave-One-Out Cross-Validation (LOO-CV) was employed to address small sample size issues. The analysis revealed that Model 1, utilizing the top 50 crisis-correlated terms as features, achieved an accuracy of 91.9% and an AUC-ROC of 0.989, demonstrating superior predictive power. These findings suggest that linguistic patterns in the Shilu serve as verbal indicators of national crisis and demonstrate the broad potential for applying Digital Humanities methodologies to East Asian historical studies.**
 
-##**Keywords: Qing Shilu, Kangxi Emperor, Digital Humanities, Text Mining, Crisis Prediction, Logistic Regression, PCA**
+## **Keywords: Qing Shilu, Kangxi Emperor, Digital Humanities, Text Mining, Crisis Prediction, Logistic Regression, PCA**
 
 ---
 
@@ -12,7 +12,7 @@
 An infographic of Model 1 analysis result.
 
 ---
-##**License**
+## **License**
 - Code: [MIT License](LICENSE)
 - Data: The raw data is sourced from the [National Institute of Korean History](http://db.history.go.kr/).
 - Analysis Content: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
