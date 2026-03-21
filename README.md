@@ -1,4 +1,4 @@
-# **<<The vertiable records of Kangxi word analysing for crisis predictor with machine-learning>>**
+# 《The Veritable Records of Kangxi: Word Analysis for Crisis Prediction with Machine Learning》
 
 # **[Abstract]**
 
