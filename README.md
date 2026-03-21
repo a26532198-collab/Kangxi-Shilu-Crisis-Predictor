@@ -1,11 +1,7 @@
-# Kangxi crisis data mining
-This study applies data science to the Veritable Records of Kangxi to predict historical crises. Using N-gram tokenization and Lasso-regularized Logistic Regression, it identifies linguistic predictors of documented conflicts. This research validates quantitative text mining as a tool for empirical Digital Humanities analysis.
+[Abstract]
+This research utilizes the Qing Shilu (Veritable Records of the Qing) database of the Kangxi era (1661–1722) from the National Institute of Korean History to investigate whether word frequency patterns extracted from the 62-year reign of the Kangxi Emperor correlate significantly with periods of national crisis. Logistic Regression and Lasso classification models were applied to preprocessed text data, and Leave-One-Out Cross-Validation (LOO-CV) was employed to address small sample size issues. The analysis revealed that Model 1, utilizing the top 50 crisis-correlated terms as features, achieved an accuracy of 91.9% and an AUC-ROC of 0.989, demonstrating superior predictive power. These findings suggest that linguistic patterns in the Shilu serve as verbal indicators of national crisis and demonstrate the broad potential for applying Digital Humanities methodologies to East Asian historical studies.
 
-## 🛠 Technical Implementation
-- **Feature Engineering**: Extracted Bi-gram and Tri-gram from Classical Chinese text to capture semantic units.
-- **Handling Sparsity**: Managed high-dimensional sparse matrices resulting from all-word extraction.
-- **Regularization**: Applied **Lasso (L1)** to perform automatic feature selection, filtering out statistically insignificant functional characters (Stopwords).
-- **Evaluation**: Achieved **85% Accuracy** in predicting historical crisis years.
+##Keywords: Qing Shilu, Kangxi Emperor, Digital Humanities, Text Mining, Crisis Prediction, Logistic Regression, PCA
 
 ## License<img width="3367" height="3183" alt="kangxi_light_model1" src="https://github.com/user-attachments/assets/060cd404-8d69-4296-ac4f-7e5123f33dd9" />
 An infographic of Model 1 analysis result.
